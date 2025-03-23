@@ -53,6 +53,7 @@ app.get('/addSite', async (req, res) => {
   }
 });
 
+
 app.post('/addSite', async (req, res) => {
   try {
     await siteData.addSite(req.body);
