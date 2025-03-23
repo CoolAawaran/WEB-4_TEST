@@ -1,4 +1,4 @@
-const siteData = require("./modules/data-service");
+const siteData = require("../modules/data-service");
 const path = require("path");
 const express = require('express');
 const app = express();
